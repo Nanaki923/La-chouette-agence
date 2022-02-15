@@ -7794,8 +7794,14 @@ button.close {
 
 .center-block {
     display: block;
+    margin-top: -180px;
     margin-right: auto;
-    margin-left: auto
+    margin-left: auto;
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    
+    
 }
 
 .pull-right {
