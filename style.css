@@ -294,6 +294,8 @@ a:hover {
 }
 
 .navbar-brand {
+    display: flex;
+    justify-content: space-around;
     height: auto;
     padding: 3px 15px;
     font-size: 25px;
@@ -301,7 +303,6 @@ a:hover {
     font-weight: 600;
     line-height: 44px;
 }
-
 .navbar-brand img {
     max-height: 400px;
     margin: 10px 5px 0 0;
@@ -310,9 +311,7 @@ a:hover {
 }
 .navbar-brand img:hover {
     transform: scale(1.01);
-
 }
-
 .navbar-brand img[src$=svg] {
     min-width: 100px;
 }
@@ -453,6 +452,7 @@ nav .caret {
 
 .btn {
     margin: 0 5px 5px 0;
+    
 }
 
 .btn.pull-right {
@@ -706,6 +706,8 @@ p {
 }
 
 .social {
+    display: flex;
+    justify-content: space-between;
     max-width: 400px;
     margin: auto auto auto auto;
 }
@@ -781,27 +783,28 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
-    font-size: 25px;
-    margin-top: 15px;
+    color: white!important;
+    font-size: 28px;
+    margin-top: 25px;
+}
+.tc-black {
+    color: black!important;
+    font-size: 28px;
+    margin-top: 25px;
 }
 
 .btn-atomic-tangerine {
+    
+    justify-content: space-around;
     margin-top: 15px;
-    background: #F3976C;
-    color: #FFFFFF!important;
-    transition: all 2s ease-in-out;
+    background: #F3976C;  
 }
-
-.btn-atomic-tangerine:hover {
-    background: linear-gradient(to left top, #f07339, #c27956, #ffd16e)!important;
-    color: #FFFFFF!important;
+.btn-atomic-tangerine:hover { 
+    background: linear-gradient(to left top, #f07339, #c27956, #ffd16e)!important; 
 }
-
 .ltc-white {
     color: #FFFFFF!important;
 }
-
 .ltc-white:hover {
     color: #cccccc!important;
 }
@@ -859,13 +862,13 @@ h4 {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -883,10 +886,7 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }
+    
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -895,8 +895,6 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
     }
 }
 
