@@ -2056,6 +2056,7 @@ pre code {
 .col-xs-10,
 .col-xs-11,
 .col-xs-12,
+.col-xs-13,
 .col-xs-2,
 .col-xs-3,
 .col-xs-4,
@@ -2084,9 +2085,15 @@ pre code {
 .col-xs-9 {
     float: left
 }
-
+.col-xs-13 {
+    width: 100%;
+}
 .col-xs-12 {
-    width: 100%
+    width: 100%;
+    background: rgb(255, 249, 245);
+    
+   
+    
 }
 
 .col-xs-11 {

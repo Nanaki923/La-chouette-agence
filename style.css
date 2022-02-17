@@ -270,7 +270,8 @@ a:hover {
 }
 
 .voffset-lg {
-    margin-top: 80px;
+    margin: 40px 20px 20px 20px;
+    
 }
 
 .row-no-gutters {
@@ -827,13 +828,17 @@ h4 {
     background-image: url("img/dots-bg.png");
 }
 
+.bg-h2-bg {
+    background: rgb(255, 249, 245);
+}
+
 .bg-banniere {
     margin-top: 15px;
-    background-image: url("img/la-chouette-agence-banniere.jpg");
+    background-image: url("img/la-chouette-agence-banniere.png");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.png");
 }
 
 @media (max-width: 1024px) {
