@@ -700,7 +700,7 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
+    color: #000000!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -796,13 +796,22 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    
-    justify-content: space-around;
     margin-top: 15px;
-    background: #F3976C;  
+    background: linear-gradient(to left top, #ffd16e, #c27956, #f07339)!important;  
 }
 .btn-atomic-tangerine:hover { 
     background: linear-gradient(to left top, #f07339, #c27956, #ffd16e)!important; 
+}
+.btn-atomic-tangerine-2 {
+    
+    margin-top: 30px;
+    background: linear-gradient(to left top, #ffd16e, #c27956, #f07339)!important;  
+}
+@media (min-width:768px) {
+    .btn-atomic-tangerine-2 {
+        visibility: hidden;
+    }
+
 }
 .ltc-white {
     color: #FFFFFF!important;
