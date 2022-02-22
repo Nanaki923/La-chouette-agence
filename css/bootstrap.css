@@ -1437,8 +1437,17 @@ img {
 .thumbnail>img {
     border-radius: 25px;
     display: block;
-    max-width: 100%;
-    height: auto
+    width: 280px;
+}
+@media (max-width: 768px) {
+    .carousel-inner>.item>a>img,
+    .carousel-inner>.item>img,
+    .img-responsive,
+    .thumbnail a>img,
+    .thumbnail>img {
+        width: 100%;
+    }
+    
 }
 
 .img-rounded {
@@ -7799,9 +7808,8 @@ button.close {
     margin-top: -145px;
     margin-right: auto;
     margin-left: auto;
-    height: 200px;
-    width: 200px;
-    border-radius: 100px;  
+    width: 150px;
+   
 }
 @media (max-width:767px) {
     .center-block {
