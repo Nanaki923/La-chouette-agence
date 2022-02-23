@@ -137,7 +137,7 @@ a:hover {
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
-    color: rgba(255, 255, 255, 1);
+    color: rgb(121, 85, 85);
 }
 
 .d-bloc .navbar-toggle .icon-bar {
@@ -645,7 +645,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #2b2a2a!important;
 }
 
 .container {
@@ -825,7 +825,7 @@ h4 {
 
 .bg-banniere {
     margin-bottom: -70px;
-    background-image: url("img/la-chouette-agence-banniere.webp" height="414");
+    background-image: url("img/la-chouette-agence-banniere.webp");
 }
 @media (max-width:768px) {
     .bg-banniere {
