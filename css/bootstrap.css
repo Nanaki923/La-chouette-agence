@@ -2102,10 +2102,7 @@ pre code {
 }
 .col-xs-12 {
     width: 100%;
-    background: rgb(255, 249, 245);
-    
-   
-    
+    background: #F3976C; 
 }
 
 .col-xs-11 {
@@ -2506,7 +2503,8 @@ pre code {
         width: 75%
     }
     .col-md-8 {
-        width: 66.66666667%
+        width: 66.66666667%;
+        border-radius: 25px;
     }
     .col-md-7 {
         width: 58.33333333%
