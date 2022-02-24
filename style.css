@@ -787,13 +787,15 @@ h4 {
     background: linear-gradient(to left top, #f07339, #c27956, #ffd16e)!important; 
 }
 .btn-atomic-tangerine-2 {
-    
     margin-top: 30px;
-    background: linear-gradient(to left top, #ffd16e, #c27956, #f07339)!important;  
+    background: linear-gradient(to left top, #ffd16e, #c27956, #f07339)!important; 
+   
 }
 @media (min-width:768px) {
     .btn-atomic-tangerine-2 {
         visibility: hidden;
+        margin-top: -100px;
+        margin-bottom: 0px;
     }
 
 }
